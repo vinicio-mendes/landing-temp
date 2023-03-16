@@ -24,9 +24,10 @@ function SignIn() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
-              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">
-                  Welcome back. We exist to make entrepreneurship easier.
+              <div className="max-w-2xl mx-auto text-center pb-12 md:pb-20">
+                <h1 className="h1 text-magenta-100">
+                  Bem vindo de volta. Existimos para facilitar o
+                  empreendedorismo.
                 </h1>
               </div>
 
@@ -35,7 +36,7 @@ function SignIn() {
                 <form>
                   <div className="flex flex-wrap -mx-3">
                     <div className="w-full px-3">
-                      <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
+                      <button className="btn px-0 text-white-100 bg-red-600 hover:bg-red-700 w-full relative flex items-center">
                         <svg
                           className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4"
                           viewBox="0 0 16 16"
@@ -48,7 +49,7 @@ function SignIn() {
                           aria-hidden="true"
                         ></span>
                         <span className="flex-auto pl-16 pr-8 -ml-16">
-                          Sign in with Google
+                          Inicie com Google
                         </span>
                       </button>
                     </div>
@@ -59,8 +60,8 @@ function SignIn() {
                     className="border-t border-gray-700 border-dotted grow mr-3"
                     aria-hidden="true"
                   ></div>
-                  <div className="text-gray-400">
-                    Or, sign in with your email
+                  <div className="text-magenta-100">
+                    Ou, continue com seu e-mail
                   </div>
                   <div
                     className="border-t border-gray-700 border-dotted grow ml-3"
@@ -71,16 +72,16 @@ function SignIn() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
-                        className="block text-gray-300 text-sm font-medium mb-1"
+                        className="block text-magenta-100 text-sm font-medium mb-1"
                         htmlFor="email"
                       >
-                        Email
+                        E-mail
                       </label>
                       <input
                         id="email"
                         type="email"
-                        className="form-input w-full text-gray-300"
-                        placeholder="you@yourcompany.com"
+                        className="form-input w-full text-gray-600"
+                        placeholder="Insira seu e-mail"
                         required
                       />
                     </div>
@@ -88,16 +89,16 @@ function SignIn() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
-                        className="block text-gray-300 text-sm font-medium mb-1"
+                        className="block text-magenta-100 text-sm font-medium mb-1"
                         htmlFor="password"
                       >
-                        Password
+                        Senha
                       </label>
                       <input
                         id="password"
                         type="password"
-                        className="form-input w-full text-gray-300"
-                        placeholder="Password (at least 10 characters)"
+                        className="form-input w-full text-gray-600"
+                        placeholder="Insira sua senha"
                         required
                       />
                     </div>
@@ -107,34 +108,34 @@ function SignIn() {
                       <div className="flex justify-between">
                         <label className="flex items-center">
                           <input type="checkbox" className="form-checkbox" />
-                          <span className="text-gray-400 ml-2">
-                            Keep me signed in
+                          <span className="text-magenta-100 ml-2">
+                            Mantenha-me conectado
                           </span>
                         </label>
                         <Link
                           to="/reset-password"
-                          className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                          className="text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
                         >
-                          Forgot Password?
+                          Esqueceu a senha?
                         </Link>
                       </div>
                     </div>
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">
-                        Sign in
+                      <button className="btn text-white-100 bg-tangerine-100 hover:bg-purple-700 w-full">
+                        Entrar
                       </button>
                     </div>
                   </div>
                 </form>
-                <div className="text-gray-400 text-center mt-6">
-                  Don’t you have an account?{' '}
+                <div className="text-gray-600 text-center mt-6">
+                  Você não possui uma conta?{' '}
                   <Link
                     to="/signup"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                    className="text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
-                    Sign up
+                    Inscreva-se
                   </Link>
                 </div>
               </div>

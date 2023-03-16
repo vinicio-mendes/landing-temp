@@ -25,8 +25,8 @@ function SignUp() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">
-                  Welcome. We exist to make entrepreneurship easier.
+                <h1 className="h1 text-magenta-100">
+                  Bem-vindo. Existimos para facilitar o empreendedorismo.
                 </h1>
               </div>
 
@@ -35,7 +35,7 @@ function SignUp() {
                 <form>
                   <div className="flex flex-wrap -mx-3">
                     <div className="w-full px-3">
-                      <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
+                      <button className="btn px-0 text-white-100 bg-red-600 hover:bg-red-700 w-full relative flex items-center">
                         <svg
                           className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4"
                           viewBox="0 0 16 16"
@@ -48,7 +48,7 @@ function SignUp() {
                           aria-hidden="true"
                         ></span>
                         <span className="flex-auto pl-16 pr-8 -ml-16">
-                          Sign up with Google
+                          Inscreva-se com Google
                         </span>
                       </button>
                     </div>
@@ -59,8 +59,8 @@ function SignUp() {
                     className="border-t border-gray-700 border-dotted grow mr-3"
                     aria-hidden="true"
                   ></div>
-                  <div className="text-gray-400">
-                    Or, register with your email
+                  <div className="text-magenta-100">
+                    Ou, continue com seu e-mail
                   </div>
                   <div
                     className="border-t border-gray-700 border-dotted grow ml-3"
@@ -71,16 +71,16 @@ function SignUp() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
-                        className="block text-gray-300 text-sm font-medium mb-1"
+                        className="block text-magenta-100 text-sm font-medium mb-1"
                         htmlFor="full-name"
                       >
-                        Full Name <span className="text-red-600">*</span>
+                        None Completo <span className="text-red-600">*</span>
                       </label>
                       <input
                         id="full-name"
                         type="text"
-                        className="form-input w-full text-gray-300"
-                        placeholder="First and last name"
+                        className="form-input w-full text-gray-600"
+                        placeholder="Primeiro e último nome"
                         required
                       />
                     </div>
@@ -88,16 +88,16 @@ function SignUp() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
-                        className="block text-gray-300 text-sm font-medium mb-1"
+                        className="block text-magenta-100 text-sm font-medium mb-1"
                         htmlFor="company-name"
                       >
-                        Company Name <span className="text-red-600">*</span>
+                        Profissão <span className="text-red-600">*</span>
                       </label>
                       <input
                         id="company-name"
                         type="text"
-                        className="form-input w-full text-gray-300"
-                        placeholder="Your company or app name"
+                        className="form-input w-full text-gray-600"
+                        placeholder="Escolha uma das opções"
                         required
                       />
                     </div>
@@ -105,16 +105,16 @@ function SignUp() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
-                        className="block text-gray-300 text-sm font-medium mb-1"
+                        className="block text-magenta-100 text-sm font-medium mb-1"
                         htmlFor="email"
                       >
-                        Work Email <span className="text-red-600">*</span>
+                        E-mail <span className="text-red-600">*</span>
                       </label>
                       <input
                         id="email"
                         type="email"
-                        className="form-input w-full text-gray-300"
-                        placeholder="you@yourcompany.com"
+                        className="form-input w-full text-gray-600"
+                        placeholder="Insira seu melhor e-mail"
                         required
                       />
                     </div>
@@ -122,46 +122,40 @@ function SignUp() {
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
-                        className="block text-gray-300 text-sm font-medium mb-1"
+                        className="block text-magenta-100 text-sm font-medium mb-1"
                         htmlFor="password"
                       >
-                        Password <span className="text-red-600">*</span>
+                        Senha <span className="text-red-600">*</span>
                       </label>
                       <input
                         id="password"
                         type="password"
-                        className="form-input w-full text-gray-300"
-                        placeholder="Password (at least 10 characters)"
+                        className="form-input w-full text-gray-600"
+                        placeholder="Insira sua senha (com até 10 caracteres)"
                         required
                       />
                     </div>
                   </div>
-                  <div className="text-sm text-gray-500 text-center">
-                    I agree to be contacted by Open PRO about this offer as per
-                    the Open PRO{' '}
-                    <Link
-                      to="#"
-                      className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"
-                    >
-                      Privacy Policy
-                    </Link>
-                    .
+                  <div className="text-sm text-magenta-100 text-center">
+                    Ao clicar em "Inscreva-se com a Google" acima, você
+                    reconhece que leu e entendeu e concorda com os{' '}
+                    <Link to="#">Termos de Privacidade</Link> da FireTheBox.
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">
-                        Sign up
+                      <button className="btn text-white-100 bg-tangerine-100 hover:bg-purple-700 w-full">
+                        Inscreva-se
                       </button>
                     </div>
                   </div>
                 </form>
-                <div className="text-gray-400 text-center mt-6">
-                  Already using Open PRO?{' '}
+                <div className="text-gray-600 text-center mt-6">
+                  Já é usuário da FireTheBox?{' '}
                   <Link
-                    to="signin"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                    to="/signin"
+                    className="text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
-                    Sign in
+                    Iniciar sessão
                   </Link>
                 </div>
               </div>

@@ -1,13 +1,12 @@
 import React from 'react'
 
-import TeamImage01 from '../images/team-member-01.jpg'
-import TeamImage02 from '../images/team-member-02.jpg'
-import TeamImage03 from '../images/team-member-03.jpg'
-import TeamImage04 from '../images/team-member-04.jpg'
-import TeamImage05 from '../images/team-member-05.jpg'
-import TeamImage06 from '../images/team-member-06.jpg'
-import TeamImage07 from '../images/team-member-07.jpg'
-import TeamImage08 from '../images/team-member-08.jpg'
+import vinicioteam from '../images/vinicioteam.png'
+import nicolasteam from '../images/nicolasteam.png'
+import pedroteam from '../images/pedroteam.png'
+import viniciusteam from '../images/viniciusteam.png'
+import carlosteam from '../images/carlosteam.png'
+import paulateam from '../images/paulateam.png'
+import tiagoteam from '../images/tiagoteam.png'
 
 function Team() {
   return (
@@ -16,10 +15,13 @@ function Team() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our passionate team</h2>
-            <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum consequat.
+            <h2 className="h2 mb-4 text-magenta-100">
+              Nosso time de exelência{' '}
+            </h2>
+            <p className="text-xl text-indico-100">
+              Estamos em todo o Brasil e Portugal para chegar do interior até a
+              capital. Somos emprendedores e nosso legado é disseminar o
+              empreendedorismo
             </p>
           </div>
 
@@ -37,18 +39,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage01}
+                  src={vinicioteam}
                   width="120"
                   height="120"
                   alt="Team member 01"
                 />
-                <h4 className="text-xl font-medium mb-1">Lara Lamprecht</h4>
-                <div className="text-gray-500 mb-1">CEO & Co-founder</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Vinicio Mendes
+                </h4>
+                <div className="text-gray-500 mb-1">CEO </div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/oviniciomendes/"
                 >
-                  @laraamprecht
+                  @oviniciomendes
                 </a>
               </div>
             </div>
@@ -63,18 +67,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage02}
+                  src={nicolasteam}
                   width="120"
                   height="120"
                   alt="Team member 02"
                 />
-                <h4 className="text-xl font-medium mb-1">Marie Koniuszek</h4>
-                <div className="text-gray-500 mb-1">CEO & Co-founder</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Nícolas Gabriel
+                </h4>
+                <div className="text-gray-500 mb-1">CTO</div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/nicolasgabriel13/"
                 >
-                  @marie_moon
+                  @nicolasgabriel13
                 </a>
               </div>
             </div>
@@ -89,18 +95,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage03}
+                  src={pedroteam}
                   width="120"
                   height="120"
                   alt="Team member 03"
                 />
-                <h4 className="text-xl font-medium mb-1">Greg Sebastian</h4>
-                <div className="text-gray-500 mb-1">Head of Design</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Pedro Oliveira
+                </h4>
+                <div className="text-gray-500 mb-1">Product Onwer</div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/pedrocostol/"
                 >
-                  @mr_sebastian
+                  @pedrocostol
                 </a>
               </div>
             </div>
@@ -115,18 +123,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage04}
+                  src={viniciusteam}
                   width="120"
                   height="120"
                   alt="Team member 04"
                 />
-                <h4 className="text-xl font-medium mb-1">Timothy Chandran</h4>
-                <div className="text-gray-500 mb-1">Product Executive</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Vinicius Medeiros
+                </h4>
+                <div className="text-gray-500 mb-1">Head of Design</div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/vrms/"
                 >
-                  @timothychandran
+                  @vrms
                 </a>
               </div>
             </div>
@@ -141,18 +151,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage05}
+                  src={carlosteam}
                   width="120"
                   height="120"
                   alt="Team member 05"
                 />
-                <h4 className="text-xl font-medium mb-1">Dominik Prasad</h4>
-                <div className="text-gray-500 mb-1">Backend Lead</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Carlos Daniel
+                </h4>
+                <div className="text-gray-500 mb-1">Sales leader</div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/carlos-daniel-nascimento-da-concei%C3%A7%C3%A3o-86a321174/"
                 >
-                  @dominikprasad
+                  @carllosdaniell
                 </a>
               </div>
             </div>
@@ -167,18 +179,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage06}
+                  src={paulateam}
                   width="120"
                   height="120"
                   alt="Team member 06"
                 />
-                <h4 className="text-xl font-medium mb-1">Darya Semenova</h4>
-                <div className="text-gray-500 mb-1">Backend Developer</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Paula Barros
+                </h4>
+                <div className="text-gray-500 mb-1">CEO NGUZU & Parter</div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/paula-barros-2a724433/"
                 >
-                  @daryamagic
+                  @PaulaBarros
                 </a>
               </div>
             </div>
@@ -193,44 +207,20 @@ function Team() {
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
-                  src={TeamImage07}
+                  src={tiagoteam}
                   width="120"
                   height="120"
                   alt="Team member 07"
                 />
-                <h4 className="text-xl font-medium mb-1">Quentin Renvoye</h4>
-                <div className="text-gray-500 mb-1">Product Designer</div>
+                <h4 className="text-xl font-medium mb-1 text-tangerine-100">
+                  Tiago Cardoso
+                </h4>
+                <div className="text-gray-500 mb-1">Ecosystem Builder</div>
                 <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  href="https://www.linkedin.com/in/tiagommcardoso/"
                 >
-                  @quentinrenvoye
-                </a>
-              </div>
-            </div>
-
-            {/* 8th member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="700"
-              data-aos-anchor="[data-aos-id-team]"
-            >
-              <div className="flex flex-col items-center">
-                <img
-                  className="rounded-full mb-4"
-                  src={TeamImage08}
-                  width="120"
-                  height="120"
-                  alt="Team member 08"
-                />
-                <h4 className="text-xl font-medium mb-1">Alyssa Chuzeville</h4>
-                <div className="text-gray-500 mb-1">Community Lead</div>
-                <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  @hello_chuzeville
+                  @TiagoCardoso
                 </a>
               </div>
             </div>

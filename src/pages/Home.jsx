@@ -4,7 +4,7 @@ import Header from '../partials/Header'
 import PageIllustration from '../partials/PageIllustration'
 import HeroHome from '../partials/HeroHome'
 import Process from '../partials/Process'
-import FeaturesHome from '../partials/FeaturesHome'
+// import FeaturesHome from '../partials/FeaturesHome'
 import Tabs from '../partials/Tabs'
 import Target from '../partials/Target'
 import News from '../partials/News'
@@ -30,7 +30,7 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <Process />
-        <FeaturesHome />
+        {/* <FeaturesHome /> */}
         <Tabs />
         <Target />
         <News />

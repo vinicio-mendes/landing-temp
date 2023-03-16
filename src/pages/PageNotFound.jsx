@@ -5,7 +5,7 @@ import Header from '../partials/Header'
 import PageIllustration from '../partials/PageIllustration'
 import Footer from '../partials/Footer'
 
-import NotFoundImage from '../images/Pirates-temp.jpg'
+import boybox01 from '../images/fotor_AI_boy01.png'
 
 function PageNotFound() {
   return (
@@ -34,13 +34,13 @@ function PageNotFound() {
                 >
                   <img
                     className="rounded-full"
-                    src={NotFoundImage}
+                    src={boybox01}
                     width="196"
                     height="196"
                     alt="404"
                   />
                   <svg
-                    className="w-20 h-20 fill-current text-purple-600 absolute top-0 right-0 -mr-6"
+                    className="w-20 h-20 fill-current text-indico-100 absolute top-0 right-0 -mr-6"
                     width="84"
                     height="80"
                     xmlns="http://www.w3.org/2000/svg"
@@ -53,21 +53,26 @@ function PageNotFound() {
                   </svg>
                 </div>
                 {/* 404 content */}
-                <h1 className="h1 mb-4" data-aos="fade-up" data-aos-delay="200">
-                  Uh oh, a maré não está para piratas.
+                <h1
+                  className="h1 mb-4 text-magenta-100"
+                  data-aos="fade-up"
+                  data-aos-delay="200 "
+                >
+                  Opa... 404 na escuta!
                 </h1>
                 <p
-                  className="text-lg text-gray-400"
+                  className="text-lg text-indico-100"
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  Por enquanto estamos aqui{' '}
+                  Dirija-se á nossa{' '}
                   <Link
-                    to="https://www.instagram.com/firethebox/"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                    to="/"
+                    className="text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
-                    homepage
+                    Página inicial
                   </Link>{' '}
+                  que existe ou tente verificar o URL novamente.
                 </p>
               </div>
             </div>

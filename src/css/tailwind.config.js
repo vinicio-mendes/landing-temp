@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    './index.html',
-    './src/**/*.{js,jsx,ts,tsx}',
-  ],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -17,6 +14,31 @@ module.exports = {
           800: '#25282C',
           900: '#151719',
         },
+        indico: {
+          100: '#5C008B',
+          300: '#A600F9',
+          600: '#CD6AFF',
+        },
+        magenta: {
+          100: '#8F008C',
+          300: '#FD00F9',
+          600: '#FF6CFD',
+        },
+        tangerine: {
+          100: '#F28705',
+          300: '#FBAB49',
+          600: '#FDCF97',
+        },
+        orange: {
+          100: '#FF6200',
+          300: '#FF914D',
+          600: '#FFC099',
+        },
+        beaver: {
+          100: '#BD8D74',
+          300: '#D1B09E',
+          600: '#E5D2C8',
+        },
         purple: {
           100: '#F4F4FF',
           200: '#E2E1FF',
@@ -28,6 +50,9 @@ module.exports = {
           800: '#38379C',
           900: '#262668',
         },
+        white: {
+          100: '#FFFFFF',
+        },
       },
       spacing: {
         '9/16': '56.25%',
@@ -36,7 +61,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        'architects-daughter': ['"Architects Daughter"', 'sans-serif']
+        'architects-daughter': ['"Architects Daughter"', 'sans-serif'],
       },
       fontSize: {
         xs: '0.75rem',
@@ -51,7 +76,7 @@ module.exports = {
         '6xl': '4rem',
       },
       inset: {
-        'full': '100%',
+        full: '100%',
       },
       letterSpacing: {
         tighter: '-0.02em',
@@ -62,14 +87,12 @@ module.exports = {
         widest: '0.4em',
       },
       minWidth: {
-        '10': '2.5rem',
+        10: '2.5rem',
       },
       scale: {
-        '98': '.98'
+        98: '.98',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
-};
+  plugins: [require('@tailwindcss/forms')],
+}
