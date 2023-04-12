@@ -1,16 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Transition from '../utils/Transition'
 
-import WorldImage from '../images/worldmap.png'
+import LogoFire from '../images/LogoFire.png'
 import mapaBrasil from '../images/mapaBrasil.png'
-import UserImage01 from '../images/world-user-01.jpg'
-import UserImage02 from '../images/world-user-02.jpg'
-import UserImage03 from '../images/world-user-03.jpg'
-import UserImage04 from '../images/world-user-04.jpg'
-import UserImage05 from '../images/world-user-05.jpg'
-import UserImage06 from '../images/world-user-06.jpg'
-import UserImage07 from '../images/world-user-07.jpg'
-import UserImage08 from '../images/world-user-08.jpg'
+import vinicioteam from '../images/vinicioteam.png'
+import viniciustem from '../images/viniciusteam.png'
+import nicolasteam from '../images/nicolasteam.png'
+import pedroteam from '../images/pedroteam.png'
+import carlosteam from '../images/carlosteam.png'
 
 function TestimonialsCarousel() {
   const [active, setActive] = useState(0)
@@ -18,7 +15,7 @@ function TestimonialsCarousel() {
   const [autorotateTiming] = useState(7000)
   const [items] = useState([
     {
-      img: UserImage01,
+      img: LogoFire,
       alt: 'Testimonial 01',
       quote:
         '“ Promover um mundo com mais pessoas protagonistas de sua histórias e potencializadas para criar impacto e soluções para um mundo melhor.“',
@@ -76,7 +73,9 @@ function TestimonialsCarousel() {
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-testimonialcar]"
             >
-              Em todo o Brasil para revolucionar o nosso país
+              Atrás de potencializar talentos empreendedores e tecnológicos,
+              cuja formação ou localização geográfica os coloca longe da
+              inovação, educação e investimento.
             </p>
           </div>
 
@@ -105,7 +104,7 @@ function TestimonialsCarousel() {
                     d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
                   />
                 </svg>
-                <span >Todo o Brasil</span>
+                <span>Todo o Brasil</span>
               </li>
               <li
                 className="flex items-center mx-3 my-2"
@@ -201,7 +200,7 @@ function TestimonialsCarousel() {
                     d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
                   />
                 </svg>
-                <span >Culturais</span>
+                <span>Culturais</span>
               </li>
             </ul>
           </div>
@@ -215,9 +214,7 @@ function TestimonialsCarousel() {
                 <div
                   className="absolute inset-0 flex justify-center items-end"
                   aria-hidden="true"
-                >
-                 
-                </div>
+                ></div>
                 {/* People pics */}
                 <img
                   src={mapaBrasil}
@@ -227,17 +224,8 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: '22%', left: '52%' }}
-                  src={UserImage01}
-                  width="32"
-                  height="32"
-                  alt="User 01"
-                  data-aos="fade-up"
-                />
-                <img
-                  className="absolute rounded-full"
-                  style={{ top: '50%', left: '58%' }}
-                  src={UserImage02}
+                  style={{ top: '63%', left: '62%' }}
+                  src={vinicioteam}
                   width="48"
                   height="48"
                   alt="User 02"
@@ -246,58 +234,38 @@ function TestimonialsCarousel() {
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: '8.5%', left: '70.5%' }}
-                  src={UserImage03}
-                  width="56"
-                  height="56"
+                  style={{ top: '45%', left: '63%' }}
+                  src={pedroteam}
+                  width="45"
+                  height="45"
                   alt="User 02"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: '34%', left: '76.5%' }}
-                  src={UserImage04}
-                  width="72"
-                  height="72"
+                  style={{ top: '34%', left: '78%' }}
+                  src={viniciustem}
+                  width="45"
+                  height="45"
                   alt="User 04"
                   data-aos="fade-up"
                   data-aos-delay="700"
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: '29.5%', left: '8.5%' }}
-                  src={UserImage05}
-                  width="48"
-                  height="48"
-                  alt="User 05"
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                />
-                <img
-                  className="absolute rounded-full"
-                  style={{ top: '56%', left: '19%' }}
-                  src={UserImage06}
-                  width="56"
-                  height="56"
-                  alt="User 06"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                />
-                <img
-                  className="absolute rounded-full"
-                  style={{ top: '20%', left: '24.5%' }}
-                  src={UserImage07}
-                  width="64"
-                  height="64"
+                  style={{ top: '50%', left: '43%' }}
+                  src={carlosteam}
+                  width="40"
+                  height="40"
                   alt="User 07"
                   data-aos="fade-up"
                   data-aos-delay="600"
                 />
                 <img
                   className="absolute rounded-full"
-                  style={{ top: '39%', left: '43%' }}
-                  src={UserImage08}
+                  style={{ top: '42%', left: '43%' }}
+                  src={nicolasteam}
                   width="40"
                   height="40"
                   alt="User 08"
@@ -363,9 +331,7 @@ function TestimonialsCarousel() {
                       setActive(index)
                       stopAutorotate()
                     }}
-                  >
-                    
-                  </button>
+                  ></button>
                 ))}
               </div>
             </div>

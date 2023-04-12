@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   define: {
-    'process.env': process.env
+    'process.env': process.env,
   },
   css: {
     postcss,
@@ -16,7 +16,7 @@ export default defineConfig({
       {
         find: /^~.+/,
         replacement: (val) => {
-          return val.replace(/^~/, "");
+          return val.replace(/^~/, '')
         },
       },
     ],
@@ -24,6 +24,6 @@ export default defineConfig({
   build: {
     commonjsOptions: {
       transformMixedEsModules: true,
-    }
-  } 
+    },
+  },
 })

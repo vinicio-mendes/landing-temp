@@ -43,7 +43,7 @@ function News() {
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          Product
+                          Tendências
                         </a>
                       </li>
                       <li className="m-1">
@@ -51,7 +51,7 @@ function News() {
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          Engineering
+                          Mercado
                         </a>
                       </li>
                     </ul>
@@ -59,13 +59,14 @@ function News() {
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="/blog-post"
+                      to="https://firethebox.notion.site/Empreendedorismo-Jovem-no-Brasil-d13ae96ca8744d609b95c95ddeb4169f"
+                      target="_blank"
                     >
                       Empreendedorismo Jovem no Brasil.
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-indico-100 grow">
+                <p className="text-lg text-indico-100 grow text-justify">
                   Empreender no Brasil sempre foi e será um verdadeiro duelo de
                   gigantes, de um lado jovens com mentes brilhantes presos em
                   ecossistemas nocivos e destruidores de inovação, do outro
@@ -118,10 +119,10 @@ function News() {
                     <ul className="flex flex-wrap text-xs font-medium -m-1">
                       <li className="m-1">
                         <a
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out"
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          Desing
+                          Tendências
                         </a>
                       </li>
                       <li className="m-1">
@@ -129,7 +130,7 @@ function News() {
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          Engineering
+                          Mercado
                         </a>
                       </li>
                     </ul>
@@ -137,13 +138,14 @@ function News() {
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="/blog-post"
+                      to="https://firethebox.notion.site/Empreendedorismo-no-Metaverso-db198bcaa4d342308a1ecf9c58c5145e"
+                      target="_blank"
                     >
                       Empreendedorismo no Metaverso.
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-indico-100 grow">
+                <p className="text-lg text-indico-100 grow text-justify">
                   Seja no mundo real ou em órbitas virtuais, empreender sempre
                   trará novos desafios a desafiantes que sabem se adaptar a
                   qualquer ambiente, o metaverso vem sendo palco para grandes
@@ -199,15 +201,15 @@ function News() {
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          Product
+                          Tendências
                         </a>
                       </li>
                       <li className="m-1">
                         <a
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out"
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          Tutorials and articles
+                          Mercado
                         </a>
                       </li>
                     </ul>
@@ -215,13 +217,14 @@ function News() {
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="/blog-post"
+                      to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-3c38a30496224db39676931c5326b58d"
+                      target="_blank"
                     >
                       Empreendedorismo com Chat-GPT.
                     </Link>
                   </h3>
                 </header>
-                <p className="text-lg text-indico-100 grow">
+                <p className="text-lg text-indico-100 grow text-justify">
                   Você empreendedor não pode ignorar a revolução que o seu mais
                   novo amigo vem trazendo ao mercado, afinal de contas o
                   Chat-GPT veio para ficar e já está mudando o ecossistema

@@ -16,12 +16,11 @@ function Team() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 text-magenta-100">
-              Nosso time de exelência{' '}
+              Nosso time de excelência{' '}
             </h2>
             <p className="text-xl text-indico-100">
-              Estamos em todo o Brasil e Portugal para chegar do interior até a
-              capital. Somos emprendedores e nosso legado é disseminar o
-              empreendedorismo
+              Estamos espalhados por todo Brasil e lado a lado de Portugal, para
+              conseguir alcançar desde o <b>interior</b> até a <b>capital.</b>
             </p>
           </div>
 

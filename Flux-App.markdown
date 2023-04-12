@@ -25,3 +25,8 @@
 # Requisitos Não Funcionais (RNF)
 
 
+
+- Criar Usuários
+- Listagem Usuários
+- Edição de Usuários 
+- Remoção de Usuários

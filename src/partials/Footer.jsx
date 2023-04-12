@@ -112,11 +112,12 @@ function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  to="#"
+                  to="https://www.linkedin.com/pulse/nguzu-project-como-criamos-e-concretizamos-tiago-cardoso/?originalSubdomain=pt"
                   className="flex justify-center items-center rounded-full transition duration-150 ease-in-out"
-                  aria-label="Twitter"
+                  aria-label="Nguzu"
                 >
                   <img
+                    
                     className="fill-current"
                     src={NGUZU}
                     width="108"

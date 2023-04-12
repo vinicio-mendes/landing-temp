@@ -37,8 +37,10 @@ function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-indico-100 mb-3">
-                  Uma jornada cheia de surpresas com cases de sucesso que foram apresentados no maior festival de tecnologia,
-                  empreendedorismo, ciência e disruptividade do mundo. A Campus Party.
+                  Uma jornada cheia de surpresas com cases de sucesso que foram
+                  apresentados no maior festival de tecnologia,
+                  empreendedorismo, ciência e disruptividade do mundo. A Campus
+                  Party.
                 </div>
                 <div className="text-magenta-100 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
@@ -88,8 +90,10 @@ function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-indico-100 mb-3">
-                  Levamos alunos da Universidade Federal do Pernanbuco ao seu primeiro contato com empresas de um dos 
-                  principais parques tecnológicos e ambientes de inovação do Brasil Porto Digital através do Rec 'n' play. 
+                  Levamos alunos da Universidade Federal do Pernanbuco ao seu
+                  primeiro contato com empresas de um dos principais parques
+                  tecnológicos e ambientes de inovação do Brasil Porto Digital
+                  através do Rec 'n' play.
                 </div>
                 <div className="text-tangerine-100 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
@@ -107,7 +111,6 @@ function Career() {
                     </svg>
                     <span>Recife-PE</span>
                   </div>
-                  
                 </div>
               </div>
             </div>
@@ -140,8 +143,8 @@ function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-indico-100 mb-3">
-                  Ofertamos conteúdo e metodologias para a formação de empreendedores de
-                   impactoa nas comuniadades do Rio de Janeiro.
+                  Ofertamos conteúdo e metodologias para a formação de
+                  empreendedores de impactoa nas comuniadades do Rio de Janeiro.
                 </div>
                 <div className="text-tangerine-100 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
@@ -159,7 +162,6 @@ function Career() {
                     </svg>
                     <span>Rio de Janeiro-RJ</span>
                   </div>
-                  
                 </div>
               </div>
             </div>

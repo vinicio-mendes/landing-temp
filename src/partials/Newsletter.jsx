@@ -56,12 +56,12 @@ function Newsletter() {
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input
                   type="email"
-                  className="w-full appearance-none bg-tangerine-100 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white-100 placeholder-white-100"
+                  className="w-full appearance-none bg-white-100 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-magenta-100 placeholder-magenta-100"
                   placeholder="Seu melhor e-maill…"
                   aria-label="Seu melhor e-maill…"
                 />
                 <a
-                  className="btn text-magenta-100 bg-purple-100 hover:bg-white shadow"
+                  className="btn text-white-100 bg-tangerine-100 hover:bg-white shadow"
                   href="#0"
                 >
                   Inscrição
