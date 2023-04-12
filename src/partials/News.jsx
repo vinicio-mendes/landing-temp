@@ -25,7 +25,10 @@ function News() {
               {/* 1st article */}
               <article className="flex flex-col h-full" data-aos="fade-up">
                 <header>
-                  <Link className="block mb-6" to="/blog-post">
+                  <Link
+                    className="block mb-6"
+                    to="https://www.notion.so/firethebox/Empreendedorismo-Jovem-no-Brasil-d13ae96ca8744d609b95c95ddeb4169f?pvs=4"
+                  >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -104,7 +107,10 @@ function News() {
                 data-aos-delay="200"
               >
                 <header>
-                  <Link className="block mb-6" to="/blog-post">
+                  <Link
+                    className="block mb-6"
+                    to="https://www.notion.so/firethebox/Empreendedorismo-no-Metaverso-db198bcaa4d342308a1ecf9c58c5145e?pvs=4"
+                  >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -183,7 +189,10 @@ function News() {
                 data-aos-delay="400"
               >
                 <header>
-                  <Link className="block mb-6" to="/blog-post">
+                  <Link
+                    className="block mb-6"
+                    to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-3c38a30496224db39676931c5326b58d"
+                  >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"

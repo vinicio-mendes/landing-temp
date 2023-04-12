@@ -171,7 +171,7 @@ function Header() {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
-                    to="/features"
+                    to="/404"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Features
@@ -187,7 +187,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/blog"
+                    to="/404"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Blog
@@ -206,7 +206,7 @@ function Header() {
                   <ul className="pl-4">
                     <li>
                       <Link
-                        to="/contact"
+                        to="/404"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Contact us
@@ -214,7 +214,7 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        to="/help"
+                        to="/404"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Help center
