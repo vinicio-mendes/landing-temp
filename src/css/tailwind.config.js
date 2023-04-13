@@ -52,6 +52,7 @@ module.exports = {
         },
         white: {
           100: '#FFFFFF',
+          300: '#F7F1EE',
         },
       },
       spacing: {

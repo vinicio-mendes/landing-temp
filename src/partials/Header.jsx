@@ -168,11 +168,11 @@ function Header() {
                   : { maxHeight: 0, opacity: 0.8 }
               }
             >
-              <ul className="bg-gray-800 px-4 py-2">
+              <ul className="bg-tangerine-100 px-4 py-2">
                 <li>
                   <Link
                     to="/404"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
+                    className="flex text-white-100 hover:text-indico-600 py-2"
                   >
                     Features
                   </Link>
@@ -180,7 +180,7 @@ function Header() {
                 <li>
                   <Link
                     to="/pricing"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
+                    className="flex text-white-100 hover:text-indico-600 py-2"
                   >
                     Pricing
                   </Link>
@@ -188,7 +188,7 @@ function Header() {
                 <li>
                   <Link
                     to="/404"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
+                    className="flex text-white-100 hover:text-indico-600py-2"
                   >
                     Blog
                   </Link>
@@ -196,18 +196,18 @@ function Header() {
                 <li>
                   <Link
                     to="/about"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
+                    className="flex text-white-100 hover:text-indico-600 py-2"
                   >
                     About us
                   </Link>
                 </li>
-                <li className="py-2 my-2 border-t border-b border-gray-700">
-                  <span className="flex text-gray-300 py-2">Support</span>
+                <li className="py-2 my-2 border-t border-b border-white-100">
+                  <span className="flex text-magenta-100 py-2">Support</span>
                   <ul className="pl-4">
                     <li>
                       <Link
                         to="/404"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                        className="text-sm flex font-medium text-white-100 hover:text-indico-600 py-2 "
                       >
                         Contact us
                       </Link>
@@ -215,7 +215,7 @@ function Header() {
                     <li>
                       <Link
                         to="/404"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                        className="text-sm flex font-medium text-white-100 hover:text-indico-600 py-2"
                       >
                         Help center
                       </Link>
@@ -223,7 +223,7 @@ function Header() {
                     <li>
                       <Link
                         to="/404"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                        className="text-sm flex font-medium text-white-100 hover:text-indico-600 py-2"
                       >
                         404
                       </Link>
@@ -233,7 +233,7 @@ function Header() {
                 <li>
                   <Link
                     to="/signin"
-                    className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center"
+                    className="flex font-medium w-full text-white-100 hover:text-white-300 py-2 justify-center"
                   >
                     Sign in
                   </Link>
@@ -241,7 +241,7 @@ function Header() {
                 <li>
                   <Link
                     to="/signup"
-                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white-100 bg-magenta-100 hover:bg-white-300 transition duration-150 ease-in-out"
                   >
                     Sign up
                   </Link>
