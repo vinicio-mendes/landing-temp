@@ -25,7 +25,7 @@ function HeroAbout() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4 text-tangerine-100" data-aos="fade-up">
-              A história por trás da startup
+              A história por trás do projeto
             </h1>
             <p
               className="text-2xl text-white-100 mb-8"

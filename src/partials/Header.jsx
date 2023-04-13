@@ -41,10 +41,10 @@ function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="shrink-0 mt-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
-              <img height="120" width="120" src={logo} alt="logo" />
+            <Link to="/" className="block" aria-label="FireTheBox">
+              <img height="160" width="160" src={logo} alt="logo" />
             </Link>
           </div>
 

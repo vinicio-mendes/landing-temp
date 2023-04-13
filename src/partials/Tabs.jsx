@@ -32,7 +32,7 @@ function Tabs() {
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              Aprenda, implemente e meça suas decisões estratégicas
+              Aprenda, implemente e meça as decisões estratégicas do negócio
             </h2>
             <p
               className="text-xl text-indico-100"
@@ -48,7 +48,7 @@ function Tabs() {
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              no Vale do Silício (lar dos gigantes da tecnologia)
+              no Vale do Silício, lar dos gigantes da tecnologia.
             </p>
           </div>
 

@@ -16,18 +16,18 @@ function Footer() {
               <div className="mb-12">
                 {/* Logo */}
                 <Link to="/" className="inline-block" aria-label="Cruip">
-                  <img height="120" width="120" src={logo} alt="logo" />
+                  <img height="200" width="200" src={logo} alt="logo" />
                 </Link>
               </div>
               <div className="text-indico-100 mb-5">
-                A FireTheBox é uma startup feita por jovens para outros jovens
-                que desejam empreender e criar uma carreira de sucesso através
-                da inovação.
+                A FireTheBox é uma startup que buscar democratizar oe
+                empreendedorismo e inovação para jovens de todo Brasil através
+                de ambientes propícios para potencializar ideias, projetos e
               </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
+            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-2 gap-8">
               {/* 2nd block */}
 
               {/* 3rd block */}
@@ -117,7 +117,6 @@ function Footer() {
                   aria-label="Nguzu"
                 >
                   <img
-                    
                     className="fill-current"
                     src={NGUZU}
                     width="108"
@@ -207,7 +206,7 @@ function Footer() {
 
             {/* Copyrights note */}
             <div className="text-tangerine-100 text-sm mr-4">
-              &copy; Firethebox.com. All rights reserved.
+              &copy; firethebox.com. Todos os direitos reservados.
             </div>
           </div>
         </div>

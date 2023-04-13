@@ -90,10 +90,10 @@ function Career() {
                   </a>
                 </div>
                 <div className="text-lg text-indico-100 mb-3">
-                  Levamos alunos da Universidade Federal do Pernanbuco ao seu
-                  primeiro contato com empresas de um dos principais parques
-                  tecnológicos e ambientes de inovação do Brasil Porto Digital
-                  através do Rec 'n' play.
+                  Levamos alunos da Universidade Federal do Pernambuco (UFPE) ao
+                  seu primeiro contato com empresas e em um dos principais
+                  parques tecnológicos e ambientes de inovação do Brasil Porto
+                  Digital através do Rec'n'play.
                 </div>
                 <div className="text-tangerine-100 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
@@ -144,7 +144,7 @@ function Career() {
                 </div>
                 <div className="text-lg text-indico-100 mb-3">
                   Ofertamos conteúdo e metodologias para a formação de
-                  empreendedores de impactoa nas comuniadades do Rio de Janeiro.
+                  empreendedores de impacto nas comunidades do Rio de Janeiro.
                 </div>
                 <div className="text-tangerine-100 flex flex-wrap items-center">
                   <div className="inline-flex items-center">

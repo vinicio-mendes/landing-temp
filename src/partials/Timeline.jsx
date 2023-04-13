@@ -7,12 +7,14 @@ function Timeline() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 text-magenta-100">
-              Estranhos que gostam de resolver problemas
+            <h2 className="h3 mb-4 text-magenta-100">
+              nunca conformados com a realidade ao seu redor, sempre atrás de
+              melhorar a vida de outras pessoas e unidos pelo espírito
+              empreendedor{' '}
             </h2>
-            <p className="text-xl text-indico-100">
-              Sempre unidos pelo o espírito empreendedor
-            </p>
+            {/* <p className="text-xl text-indico-100">
+              unidos pelo o espírito empreendedor
+            </p> */}
           </div>
 
           {/* Items */}
@@ -141,7 +143,7 @@ function Timeline() {
                     aria-hidden="true"
                   ></div>
                   <h4 className="h4 text-magenta-100">
-                    A educação empreendedora que sempre faltou
+                    Uma educação empreendedora
                   </h4>
                 </div>
                 <p className="text-lg text-indico-100">

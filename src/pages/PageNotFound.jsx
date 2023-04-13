@@ -72,7 +72,7 @@ function PageNotFound() {
                   >
                     Página inicial
                   </Link>{' '}
-                  que existe ou tente verificar o URL novamente.
+                  ou tente verificar o URL novamente.
                 </p>
               </div>
             </div>

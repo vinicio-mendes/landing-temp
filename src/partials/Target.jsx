@@ -54,10 +54,10 @@ function Target() {
                       <span className="text-tangerine-100">.</span> Para quem
                       está começando
                     </h4>
-                    <p className="text-lg text-indico-100">
-                      Só precisamos da sua vontade, não se preocupe em não saber
-                      nada, nós mostramos o caminho e te levamos até a solução
-                      que de fato atenda o mercado.
+                    <p className="text-lg text-indico-100 text-justify">
+                      Aqui só é preciso vontade e curiosidade, não se preocupe
+                      com conhecimentos prévios, a ferramenta te mostra o
+                      caminho para a construção do projeto empreendedor
                     </p>
                   </div>
                   <div
@@ -68,12 +68,12 @@ function Target() {
                   >
                     <h4 className="h4 mb-2">
                       <span className="text-tangerine-100">.</span> Para quem
-                      está estruturando um negócio
+                      está empreendendo
                     </h4>
-                    <p className="text-lg text-indico-100">
-                      Chegou no MVP mas não sabe como seguir ? Junto ao nosso
-                      banca de mentores, vamos te guiar durante a estruturação
-                      do seu negócio e apertar os parafusos.
+                    <p className="text-lg text-indico-100 text-justify">
+                      Construiu o MVP, mas não sabe como seguir ? Junto à nossa
+                      rede de mentores, vamos te guiar durante a validação do
+                      negócio e te conectar com possíveis parceiros de negócio.
                     </p>
                   </div>
                   <div
@@ -83,14 +83,13 @@ function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-tangerine-100">.</span> Para
-                      startups iniciantes
+                      <span className="text-tangerine-100">.</span> Para quem
+                      deseja trabalhar com startups
                     </h4>
                     <p className="text-lg text-indico-100">
-                      Já tem o pitch pronto e está no mercado ? Conheça nossa
-                      rede de Startups que, por meio de conexão ›no Brasil e
-                      exterior irão impulsionar o caminho para o seu
-                      faturamento.
+                      Gosta de tecnologia, design, marketing ou finanças ? Aqui
+                      dentro você pode se desenvolver trabalhando com projetos
+                      reais de empresas tecnológicas do mercado
                     </p>
                   </div>
                 </div>
