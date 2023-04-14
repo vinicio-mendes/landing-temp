@@ -61,7 +61,7 @@ function News() {
                   </div>
                   <h3 className="h4 mb-2">
                     <Link
-                      className="text-magenta-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
                       to="https://firethebox.notion.site/Empreendedorismo-Jovem-no-Brasil-d13ae96ca8744d609b95c95ddeb4169f"
                       target="_blank"
                     >
@@ -89,7 +89,7 @@ function News() {
                   </a>
                   <div className="font-medium">
                     <a
-                      className="text-tangerine-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-tangerine-100 hover:text-tangerine-300 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Carlos Daniel
@@ -143,7 +143,7 @@ function News() {
                   </div>
                   <h3 className="h4 mb-2">
                     <Link
-                      className="text-magenta-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
                       to="https://firethebox.notion.site/Empreendedorismo-no-Metaverso-db198bcaa4d342308a1ecf9c58c5145e"
                       target="_blank"
                     >
@@ -171,7 +171,7 @@ function News() {
                   </a>
                   <div className="font-medium">
                     <a
-                      className="text-tangerine-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-tangerine-100 hover:text-tangerine-300 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Carlos Daniel
@@ -225,7 +225,7 @@ function News() {
                   </div>
                   <h3 className="h4 mb-2">
                     <Link
-                      className="text-magenta-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
                       to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-3c38a30496224db39676931c5326b58d"
                       target="_blank"
                     >
@@ -253,7 +253,7 @@ function News() {
                   </a>
                   <div className="font-medium">
                     <a
-                      className="text-tangerine-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-tangerine-100 hover:text-tangerine-300 transition duration-150 ease-in-out"
                       href="#0"
                     >
                       Carlos Daniel

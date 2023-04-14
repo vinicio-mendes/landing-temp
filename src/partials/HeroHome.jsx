@@ -33,8 +33,8 @@ function HeroHome() {
                 y2="577.921"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#5D5DFF" stopOpacity=".01" />
-                <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
+                <stop stopColor="##8F008C" stopOpacity=".01" />
+                <stop offset="1" stopColor="#8F008C" stopOpacity=".32" />
               </linearGradient>
             </defs>
             <path
@@ -124,7 +124,7 @@ function HeroHome() {
                   </defs>
                   <circle fill="url(#a)" cx="44" cy="44" r="44" />
                   <path
-                    className="fill-current text-purple-600"
+                    className="fill-current text-indico-100"
                     d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
                   />
                 </svg>

@@ -18,9 +18,9 @@ function PageIllustration() {
           y2="391.913"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#5D5DFF" stopOpacity=".01" />
-          <stop offset=".538" stopColor="#5D5DFF" stopOpacity=".32" />
-          <stop offset="1" stopColor="#5D5DFF" stopOpacity=".01" />
+          <stop stopColor="#8F008C" stopOpacity=".01" />
+          <stop offset=".538" stopColor="#8F008C" stopOpacity=".32" />
+          <stop offset="1" stopColor="#8F008C" stopOpacity=".01" />
         </linearGradient>
       </defs>
       <path

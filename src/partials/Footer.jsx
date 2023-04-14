@@ -7,19 +7,19 @@ import NGUZU from '../images/NGUZU.png'
 function Footer() {
   return (
     <footer>
-      <div className="py-12 md:py-16">
+      <div className="py-12 md:py-13">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
+          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-6 md:mb-0">
             {/* 1st block */}
-            <div className="md:col-span-4 lg:col-span-5">
-              <div className="mb-12">
+            <div className="md:col-span-5 lg:col-span-5">
+              <div className="mt-0 mb-1">
                 {/* Logo */}
                 <Link to="/" className="inline-block" aria-label="Cruip">
                   <img height="200" width="200" src={logo} alt="logo" />
                 </Link>
               </div>
-              <div className="text-indico-100 mb-5">
+              <div className="text-indico-100 mb-5 mt-0">
                 A FireTheBox é uma startup que buscar democratizar oe
                 empreendedorismo e inovação para jovens de todo Brasil através
                 de ambientes propícios para potencializar ideias, projetos e
@@ -27,7 +27,7 @@ function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-2 gap-8">
+            <div className="md:col-span-8 lg:col-span-6 grid sm:grid-cols-2 gap-8 mt-11">
               {/* 2nd block */}
 
               {/* 3rd block */}
@@ -39,7 +39,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                     >
                       Começar a empreender
                     </Link>
@@ -47,7 +47,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                     >
                       Ferramentas
                     </Link>
@@ -55,7 +55,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                     >
                       Artigos
                     </Link>
@@ -63,7 +63,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                     >
                       Sobre
                     </Link>
@@ -71,7 +71,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                     >
                       Suporte
                     </Link>
@@ -88,7 +88,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                     >
                       FireTheBox
                     </Link>
@@ -96,7 +96,8 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       to="#"
-                      className="text-indico-100 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
+                      target="_blank"
                     >
                       Nguzu
                     </Link>
@@ -109,15 +110,16 @@ function Footer() {
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-              <li>
+            <ul className="flex mb-3 md:order-1 md:ml-3 md:mb-0">
+              <li >
                 <Link
                   to="https://www.linkedin.com/pulse/nguzu-project-como-criamos-e-concretizamos-tiago-cardoso/?originalSubdomain=pt"
+                  target='_blank'
                   className="flex justify-center items-center rounded-full transition duration-150 ease-in-out"
                   aria-label="Nguzu"
                 >
                   <img
-                    className="fill-current"
+                    className="fill-current transition duration-150 ease-in-out"
                     src={NGUZU}
                     width="108"
                     height="34"
@@ -128,7 +130,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   to="#"
-                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Twitter"
                 >
                   <svg
@@ -143,7 +145,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   to="#"
-                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Github"
                 >
                   <svg
@@ -158,7 +160,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   to="#"
-                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Facebook"
                 >
                   <svg
@@ -172,8 +174,9 @@ function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  to="#"
-                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  to="https://www.instagram.com/firethebox/"
+                  target='_blank'
+                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Instagram"
                 >
                   <svg
@@ -189,8 +192,9 @@ function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  to="#"
-                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  to="https://www.linkedin.com/company/firethebox/"
+                  target='blank'
+                  className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Linkedin"
                 >
                   <svg

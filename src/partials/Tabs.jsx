@@ -173,7 +173,7 @@ function Tabs() {
                       atender a demanda de alguma empresa do mercado..
                     </p>
                     <a
-                      className="btn-sm bg-tangerine-100 hover:bg-purple-700 mt-6"
+                      className="btn-sm bg-tangerine-100 hover:bg-tangerine-300 mt-6"
                       href="#0"
                     >
                       <span className="text-sm text-white-100">Leia mais</span>
@@ -227,7 +227,7 @@ function Tabs() {
                       de mercado da sua solução.
                     </p>
                     <a
-                      className="btn-sm text-white bg-tangerine-100 hover:bg-purple-700 mt-6"
+                      className="btn-sm text-white bg-tangerine-100 hover:bg-tangerine-300 mt-6"
                       href="#0"
                     >
                       <span className="text-sm">Leia mais</span>
@@ -281,7 +281,7 @@ function Tabs() {
                       apresentados.
                     </p>
                     <a
-                      className="btn-sm text-white bg-tangerine-100 hover:bg-purple-700 mt-6"
+                      className="btn-sm text-white bg-tangerine-100 hover:bg-tangerine-300 mt-6"
                       href="#0"
                     >
                       <span className="text-sm">Leia mais</span>
@@ -335,7 +335,7 @@ function Tabs() {
                       abordagem centrada no cliente.
                     </p>
                     <a
-                      className="btn-sm text-white bg-tangerine-100 hover:bg-purple-700 mt-6"
+                      className="btn-sm text-white bg-tangerine-100 hover:bg-tangerine-300 mt-6"
                       href="#0"
                     >
                       <span className="text-sm">Leia mais</span>
@@ -386,7 +386,7 @@ function Tabs() {
                       esse cillum dolore eu fugiat nulla pariatur.
                     </p>
                     <a
-                      className="btn-sm text-white bg-tangerine-100 hover:bg-purple-700 mt-6"
+                      className="btn-sm text-white bg-tangerine-100 hover:bg-tangerine-300 mt-6"
                       href="#0"
                     >
                       <span className="text-sm">Learn more</span>
