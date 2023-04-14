@@ -65,7 +65,7 @@ function Process() {
                 />
               </svg>
               <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-gray-400">1</span>. Onboarding
+                <span className="text-tangerine-100">1</span>. Onboarding
               </h4>
               <p className="text-lg text-indico-100 text-center">
                 Nessa introdução vamos traçar o alvo até onde deseja chegar,
@@ -117,7 +117,7 @@ function Process() {
                 </g>
               </svg>
               <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-gray-400">2</span>. Co-criação
+                <span className="text-tangerine-100">2</span>. Co-criação
               </h4>
               <p className="text-lg text-indico-100 text-center">
                 Construa com sua equipe em tempo real, interaja com outras
@@ -158,7 +158,7 @@ function Process() {
                 />
               </svg>
               <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-gray-400">3</span>. Conexão
+                <span className="text-tangerine-100">3</span>. Conexão
               </h4>
               <p className="text-lg text-indico-100 text-center">
                 Conheça mentores de todo o Brasil e mundo a fora, conecte-se com

@@ -41,9 +41,9 @@ function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
-          <div className="shrink-0 mt-4">
+          <div className="shrink-0 mt-4 ">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="FireTheBox">
+            <Link to="/" className="block transition duration-50 ease-in-out" aria-label="FireTheBox">
               <img height="160" width="160" src={logo} alt="logo" />
             </Link>
           </div>
@@ -55,7 +55,7 @@ function Header() {
               <li>
                 <Link
                   to="/404"
-                  className="text-tangerine-100 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Ferramentas
                 </Link>
@@ -63,7 +63,7 @@ function Header() {
               <li>
                 <Link
                   to="/404"
-                  className="text-tangerine-100 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Preço
                 </Link>
@@ -71,7 +71,7 @@ function Header() {
               <li>
                 <Link
                   to="/404"
-                  className="text-tangerine-100 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Blog
                 </Link>
@@ -79,7 +79,7 @@ function Header() {
               <li>
                 <Link
                   to="/about"
-                  className="text-tangerine-100 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Sobre
                 </Link>
@@ -90,7 +90,7 @@ function Header() {
                 <li>
                   <Link
                     to="/404"
-                    className="font-medium text-sm text-white-100 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                    className="font-medium text-sm text-white-100 hover:text-tangerine-600 flex py-2 px-4 leading-tight"
                   >
                     Contate-nos
                   </Link>
@@ -98,7 +98,7 @@ function Header() {
                 <li>
                   <Link
                     to="/404"
-                    className="font-medium text-sm text-white-100 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                    className="font-medium text-sm text-white-100 hover:text-tangerine-600 flex py-2 px-4 leading-tight"
                   >
                     Help center
                   </Link>
@@ -106,7 +106,7 @@ function Header() {
                 <li>
                   <Link
                     to="/404"
-                    className="font-medium text-sm text-white-100 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                    className="font-medium text-sm text-white-100 hover:text-tangerine-600 flex py-2 px-4 leading-tight"
                   >
                     404
                   </Link>
@@ -119,7 +119,7 @@ function Header() {
               <li>
                 <Link
                   to="/404"
-                  className="font-medium text-indico-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-indico-100 hover:text-indico-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Iniciar sessão
                 </Link>
@@ -127,7 +127,7 @@ function Header() {
               <li>
                 <Link
                   to="/404"
-                  className="btn-sm text-white-100 bg-indico-100 hover:bg-purple-700 ml-3"
+                  className="btn-sm text-white-100 bg-indico-100 hover:bg-indico-600 ml-3"
                 >
                   Inscrição
                 </Link>
