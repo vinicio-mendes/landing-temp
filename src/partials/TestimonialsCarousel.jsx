@@ -206,13 +206,13 @@ function TestimonialsCarousel() {
           </div>
 
           {/* Carousel area */}
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-2xl mx-auto ">
             {/* Brasil map */}
             <div className="py-12">
-              <div className="relative">
+              <div className="relative ">
                 {/* Map */}
                 <div
-                  className="absolute inset-0 flex justify-center items-end"
+                  className="absolute inset-0 flex justify-center items-end  "
                   aria-hidden="true"
                 ></div>
                 {/* People pics */}
@@ -223,7 +223,7 @@ function TestimonialsCarousel() {
                   alt="Brasil map"
                 />
                 <img
-                  className="absolute rounded-full"
+                  className="absolute rounded-full "
                   style={{ top: '63%', left: '62%' }}
                   src={vinicioteam}
                   width="48"
@@ -233,7 +233,7 @@ function TestimonialsCarousel() {
                   data-aos-delay="400"
                 />
                 <img
-                  className="absolute rounded-full"
+                  className="absolute rounded-full "
                   style={{ top: '45%', left: '63%' }}
                   src={pedroteam}
                   width="45"

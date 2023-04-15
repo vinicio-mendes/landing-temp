@@ -48,7 +48,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">CEO </div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 hover:text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/oviniciomendes/"
                 >
                   @oviniciomendes
@@ -76,7 +76,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">CTO</div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/nicolasgabriel13/"
                 >
                   @nicolasgabriel13
@@ -104,7 +104,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">Product Onwer</div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 hover:text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/pedrocostol/"
                 >
                   @pedrocostol
@@ -132,7 +132,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">Head of Design</div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 hover:text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/vrms/"
                 >
                   @vrms
@@ -160,7 +160,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">Sales leader</div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 hover:text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/carlos-daniel-nascimento-da-concei%C3%A7%C3%A3o-86a321174/"
                 >
                   @carllosdaniell
@@ -188,7 +188,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">CEO NGUZU & Parter</div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 hover:text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/paula-barros-2a724433/"
                 >
                   @PaulaBarros
@@ -216,7 +216,7 @@ function Team() {
                 </h4>
                 <div className="text-gray-500 mb-1">Ecosystem Builder</div>
                 <a
-                  className="block text-magenta-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="block text-magenta-100 hover:text-magenta-600 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/tiagommcardoso/"
                 >
                   @TiagoCardoso

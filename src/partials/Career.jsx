@@ -19,7 +19,7 @@ function Career() {
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
                   <a
-                    className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                    className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-tangerine-600 transition duration-150 ease-in-out"
                     href="#0"
                   >
                     <span>Garagem de Startup</span>
@@ -42,7 +42,7 @@ function Career() {
                   empreendedorismo, ciência e disruptividade do mundo. A Campus
                   Party.
                 </div>
-                <div className="text-magenta-100 flex flex-wrap items-center">
+                <div className="text-tangerine-100 flex flex-wrap items-center">
                   <div className="inline-flex items-center">
                     <svg
                       className="mr-2 shrink-0"
@@ -52,7 +52,7 @@ function Career() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        className="fill-current text-tangerine-100"
+                        className="fill-current text-magenta-100"
                         d="M7 0C3.1 0 0 3.1 0 7c0 1.9.7 3.7 2.1 5 .1.1 4.1 3.7 4.2 3.8.4.3 1 .3 1.3 0 .1-.1 4.2-3.7 4.2-3.8 1.4-1.3 2.1-3.1 2.1-5 .1-3.9-3-7-6.9-7zm0 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
                       />
                     </svg>
@@ -72,7 +72,7 @@ function Career() {
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
                   <a
-                    className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                    className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-tangerine-600 transition duration-150 ease-in-out"
                     href="#0"
                   >
                     <span>Pós projetão</span>
@@ -125,7 +125,7 @@ function Career() {
               <div className="pb-6 border-b border-gray-800">
                 <div className="mb-2">
                   <a
-                    className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-gray-200 transition duration-150 ease-in-out"
+                    className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-tangerine-600 transition duration-150 ease-in-out"
                     href="#0"
                   >
                     <span>UNISUAM</span>
