@@ -14,7 +14,7 @@ function Dropdown({ children, title }) {
       onBlur={() => setDropdownOpen(false)}
     >
       <a
-        className="text-tangerine-100 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+        className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
         href="#0"
         aria-expanded={dropdownOpen}
         onClick={(e) => e.preventDefault()}
