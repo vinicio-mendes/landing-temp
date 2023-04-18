@@ -20,9 +20,10 @@ function Footer() {
                 </Link>
               </div>
               <div className="text-indico-100 mb-5 mt-0">
-                A FireTheBox é uma startup que buscar democratizar oe
-                empreendedorismo e inovação para jovens de todo Brasil através
-                de ambientes propícios para potencializar ideias, projetos e
+                Uma startup, spin-off do fundo de impacto Nguzu, que busca
+                democratizar o empreendedorismo para jovens de regiões de todo
+                Brasil, através de ambientes propícios para potencializar
+                ideias, projetos e carreiras.
               </div>
             </div>
 
@@ -111,10 +112,10 @@ function Footer() {
           <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
             <ul className="flex mb-3 md:order-1 md:ml-3 md:mb-0">
-              <li >
+              <li>
                 <Link
                   to="https://www.linkedin.com/pulse/nguzu-project-como-criamos-e-concretizamos-tiago-cardoso/?originalSubdomain=pt"
-                  target='_blank'
+                  target="_blank"
                   className="flex justify-center items-center rounded-full transition duration-150 ease-in-out"
                   aria-label="Nguzu"
                 >
@@ -175,7 +176,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   to="https://www.instagram.com/firethebox/"
-                  target='_blank'
+                  target="_blank"
                   className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Instagram"
                 >
@@ -193,7 +194,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   to="https://www.linkedin.com/company/firethebox/"
-                  target='blank'
+                  target="blank"
                   className="flex justify-center items-center text-white-100 bg-indico-100 hover:text-white-100 hover:bg-indico-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Linkedin"
                 >
