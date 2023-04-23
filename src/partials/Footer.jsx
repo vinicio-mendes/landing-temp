@@ -21,9 +21,9 @@ function Footer() {
               </div>
               <div className="text-indico-100 mb-5 mt-0">
                 Uma startup, spin-off do fundo de impacto Nguzu, que busca
-                democratizar o empreendedorismo para jovens de regiões de todo
-                Brasil, através de ambientes propícios para potencializar
-                ideias, projetos e carreiras.
+                democratizar o empreendedorismo e inovação para jovens de
+                regiões de todo Brasil, através de ambientes propícios para
+                potencializar ideias, projetos e carreiras.
               </div>
             </div>
 

@@ -43,7 +43,11 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mt-4 ">
             {/* Logo */}
-            <Link to="/" className="block transition duration-50 ease-in-out" aria-label="FireTheBox">
+            <Link
+              to="/"
+              className="block transition duration-50 ease-in-out"
+              aria-label="FireTheBox"
+            >
               <img height="160" width="160" src={logo} alt="logo" />
             </Link>
           </div>
@@ -126,7 +130,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/404"
+                  to="https://tally.so/r/nr54GR"
                   className="btn-sm text-white-100 bg-indico-100 hover:bg-indico-600 ml-3"
                 >
                   Inscrição

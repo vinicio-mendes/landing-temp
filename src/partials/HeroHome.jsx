@@ -65,7 +65,7 @@ function HeroHome() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-white-100 bg-indico-100 hover:bg-indico-300 w-full mb-4 sm:w-auto sm:mb-0"
-                  href="#0"
+                  href="https://tally.so/r/nr54GR"
                 >
                   Comece agora
                 </a>
