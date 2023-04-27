@@ -14,7 +14,7 @@ function Clients() {
 
               <Link
                 to="https://www.linkedin.com/pulse/nguzu-project-como-criamos-e-concretizamos-tiago-cardoso/?originalSubdomain=pt"
-                className="flex justify-center transition duration-150 ease-in-out"
+                className=" transition duration-150 ease-in-out"
                 aria-label="Nguzu"
               >
                 <img 
