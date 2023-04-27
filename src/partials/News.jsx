@@ -14,8 +14,7 @@ function News() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 text-magenta-100" data-aos="fade-up">
-              Aprenda algo novo e roube das melhores e mais brilhantes mentes do
-              mundo das startups
+            Adquira novos conhecimentos e aprenda com as mentes mais brilhantes do mundo das startups.
             </h2>
           </div>
 

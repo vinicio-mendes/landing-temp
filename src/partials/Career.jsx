@@ -6,7 +6,7 @@ function Career() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Section header */}
-          <h3 className="h4 mb-8 text-magenta-100">Trilhas de sucesso</h3>
+          <h3 className="h2 mb-8 text-magenta-100">Trilhas de sucesso</h3>
 
           {/* Job list */}
           <div className="-my-3" data-aos-id-career>
