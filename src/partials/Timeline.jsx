@@ -8,7 +8,7 @@ function Timeline() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h3 mb-4 text-magenta-100">
-              nunca conformados com a realidade ao seu redor, sempre atrás de
+              Nunca conformados com a realidade ao seu redor, sempre atrás de
               melhorar a vida de outras pessoas e unidos pelo espírito
               empreendedor{' '}
             </h2>

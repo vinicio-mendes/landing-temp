@@ -178,7 +178,7 @@ function Header() {
                     to="/404"
                     className="flex text-white-100 hover:text-indico-600 py-2"
                   >
-                    Features
+                    Ferramentas
                   </Link>
                 </li>
                 <li>
@@ -186,7 +186,7 @@ function Header() {
                     to="/pricing"
                     className="flex text-white-100 hover:text-indico-600 py-2"
                   >
-                    Pricing
+                    Preço
                   </Link>
                 </li>
                 <li>
@@ -202,7 +202,7 @@ function Header() {
                     to="/about"
                     className="flex text-white-100 hover:text-indico-600 py-2"
                   >
-                    About us
+                    Sobre
                   </Link>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-white-100">
@@ -213,7 +213,7 @@ function Header() {
                         to="/404"
                         className="text-sm flex font-medium text-white-100 hover:text-indico-600 py-2 "
                       >
-                        Contact us
+                        Contate-nos
                       </Link>
                     </li>
                     <li>
@@ -239,7 +239,7 @@ function Header() {
                     to="/signin"
                     className="flex font-medium w-full text-white-100 hover:text-white-300 py-2 justify-center"
                   >
-                    Sign in
+                    Iniciar sessão
                   </Link>
                 </li>
                 <li>
@@ -247,7 +247,7 @@ function Header() {
                     to="/signup"
                     className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white-100 bg-magenta-100 hover:bg-white-300 transition duration-150 ease-in-out"
                   >
-                    Sign up
+                    Inscrição
                   </Link>
                 </li>
               </ul>

@@ -100,7 +100,7 @@ function Footer() {
                       className="text-indico-100 hover:text-indico-300 transition duration-150 ease-in-out"
                       target="_blank"
                     >
-                      Nguzu
+                      Nguzu Project
                     </Link>
                   </li>
                 </ul>
