@@ -20,7 +20,7 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-tangerine-600 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="https://firethebox.notion.site/Garagem-de-Startups-8dde95def6d249d0a3bfc50e6718652e"
                   >
                     <span>Garagem de Startup</span>
                     <svg
@@ -73,7 +73,7 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-tangerine-600 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="https://firethebox.notion.site/P-s-projet-o-932d36f4d19546799d421440ceea0275"
                   >
                     <span>Pós projetão</span>
                     <svg
@@ -126,7 +126,7 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-tangerine-100 hover:text-tangerine-600 transition duration-150 ease-in-out"
-                    href="#0"
+                    href="https://firethebox.notion.site/UNISUAM-eb088450915349268e612f8629116fc5"
                   >
                     <span>UNISUAM</span>
                     <svg
