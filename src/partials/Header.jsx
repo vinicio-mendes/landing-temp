@@ -183,7 +183,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/pricing"
+                    to="/404"
                     className="flex text-white-100 hover:text-indico-600 py-2"
                   >
                     Preço
