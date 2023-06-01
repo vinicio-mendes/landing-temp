@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Dropdown from '../utils/Dropdown'
 
@@ -121,19 +121,19 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
+                {/* <Link
                   to="/404"
                   className="font-medium text-indico-100 hover:text-indico-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Iniciar sessão
-                </Link>
+                </Link> */}
               </li>
               <li>
                 <Link
                   to="https://tally.so/r/nr54GR"
                   className="btn-sm text-white-100 bg-indico-100 hover:bg-indico-600 ml-3"
                 >
-                  Inscrição
+                  Queime a caixa
                 </Link>
               </li>
             </ul>
@@ -235,19 +235,19 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link
+                  {/* <Link
                     to="/signin"
                     className="flex font-medium w-full text-white-100 hover:text-white-300 py-2 justify-center"
                   >
                     Iniciar sessão
-                  </Link>
+                  </Link> */}
                 </li>
                 <li>
                   <Link
-                    to="/signup"
+                    to="https://tally.so/r/nr54GR"
                     className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white-100 bg-magenta-100 hover:bg-white-300 transition duration-150 ease-in-out"
                   >
-                    Inscrição
+                    Tenho interesse na FireTheBox
                   </Link>
                 </li>
               </ul>
