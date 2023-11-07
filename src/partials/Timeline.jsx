@@ -174,15 +174,11 @@ function Timeline() {
                     aria-hidden="true"
                   ></div>
                   <h4 className="h4 text-magenta-100">
-                    Conectar jovens de todo o Brasil com polos de inovação e
-                    empreendedorismo
+                  Fomentar a interação de jovens brasileiros com os centros pulsantes de inovação e empreendedorismo.
                   </h4>
                 </div>
                 <p className="text-lg text-indico-100">
-                  Hoje, a FireTheBox vem com a missão de democratizar o
-                  empreendedorismo e inovação para jovens de todo Brasil,
-                  através de ambientes propícios para potencializar ideias,
-                  projetos e carreiras
+                  Hoje, a FireTheBox se posiciona como uma catalisadora de inovação e empreendedorismo, oferecendo uma plataforma interativa que capacita jovens brasileiros a transformar ideias empreendedoras em projetos de sucesso e a trilhar caminhos profissionais revolucionários.
                 </p>
               </div>
             </div>
