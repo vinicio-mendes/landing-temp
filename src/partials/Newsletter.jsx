@@ -45,9 +45,9 @@ function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white-100 mb-2">Receba novidades</h3>
+              <h3 className="h3 text-white-100 mb-2">Entre no ecossistema FireThebox</h3>
               <p className="text-white-100 text-lg">
-                Entre para nossa newslatter e receba conteúdos exclusivos.
+                Entre para nossa comunidade e receba noticias sobre as melhores oportunidades de eventos de empreendedorismo no Brasil.
               </p>
             </div>
 

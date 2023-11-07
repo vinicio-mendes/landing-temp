@@ -232,6 +232,7 @@ function TestimonialsCarousel() {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 />
+                {/*
                 <img
                   className="absolute rounded-full "
                   style={{ top: '45%', left: '63%' }}
@@ -242,6 +243,8 @@ function TestimonialsCarousel() {
                   data-aos="fade-up"
                   data-aos-delay="100"
                 />
+ 
+
                 <img
                   className="absolute rounded-full"
                   style={{ top: '34%', left: '78%' }}
@@ -252,6 +255,7 @@ function TestimonialsCarousel() {
                   data-aos="fade-up"
                   data-aos-delay="700"
                 />
+                 */}
                 <img
                   className="absolute rounded-full"
                   style={{ top: '50%', left: '43%' }}

@@ -51,15 +51,16 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4 text-magenta-100" data-aos="fade-up">
-              O jeito inteligente e guiado de começar a empreender
+            Acenda sua ideia com a FireTheBox.
             </h1>
             <p
               className="text-xl text-magenta-100 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              A FireTheBox é uma ferramenta online que busca democratizar o
-              empreendedorismo e inovação para jovens de todo Brasil.
+             A FireTheBox é uma plataforma inovadora que potencializa a criatividade e a colaboração,
+              transformando o conhecimento teórico em projetos práticos de impacto, 
+              com ferramentas que facilitam a gestão e a avaliação do aprendizado
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">

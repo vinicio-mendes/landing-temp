@@ -85,6 +85,7 @@ function Team() {
             </div>
 
             {/* 3rd member */}
+            {/*}
             <div
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
@@ -111,8 +112,9 @@ function Team() {
                 </a>
               </div>
             </div>
-
+  */}
             {/* 4th member */}
+            {/*
             <div
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
@@ -139,7 +141,7 @@ function Team() {
                 </a>
               </div>
             </div>
-
+*/}
             {/* 5th member */}
             <div
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"

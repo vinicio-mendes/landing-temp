@@ -61,7 +61,7 @@ function News() {
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
-                      to="https://firethebox.notion.site/Empreendedorismo-Jovem-no-Brasil-d13ae96ca8744d609b95c95ddeb4169f"
+                      to="https://firethebox.notion.site/Empreendedorismo-No-Brasil-dd6d982a50fa4ed9b91618039c150ebc?pvs=4"
                       target="_blank"
                     >
                       Empreendedorismo Jovem no Brasil.
@@ -94,7 +94,7 @@ function News() {
                       Carlos Daniel
                     </a>
                     <span className="text-gray-700"> - </span>
-                    <span className="text-gray-500">Março 19, 2023</span>
+                    <span className="text-gray-500">Novembro 1, 2023</span>
                   </div>
                 </footer>
               </article>
@@ -143,7 +143,7 @@ function News() {
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
-                      to="https://firethebox.notion.site/Empreendedorismo-no-Metaverso-db198bcaa4d342308a1ecf9c58c5145e"
+                      to="https://firethebox.notion.site/Empreendedorismo-no-Metaverso-d40617b61f9343a5936288375b17aab0?pvs=4"
                       target="_blank"
                     >
                       Empreendedorismo no Metaverso.
@@ -176,7 +176,7 @@ function News() {
                       Carlos Daniel
                     </a>
                     <span className="text-gray-700"> - </span>
-                    <span className="text-gray-500">Março 19, 2023</span>
+                    <span className="text-gray-500">Novembro 1, 2023</span>
                   </div>
                 </footer>
               </article>
@@ -190,7 +190,7 @@ function News() {
                 <header>
                   <Link
                     className="block mb-6"
-                    to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-3c38a30496224db39676931c5326b58d"
+                    to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-30e560a9ce6b41f9827bdfc9086efe97?pvs=4"
                   >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
@@ -225,7 +225,7 @@ function News() {
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
-                      to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-3c38a30496224db39676931c5326b58d"
+                      to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-30e560a9ce6b41f9827bdfc9086efe97?pvs=4"
                       target="_blank"
                     >
                       Empreendedorismo com Chat-GPT.
@@ -258,7 +258,7 @@ function News() {
                       Carlos Daniel
                     </a>
                     <span className="text-gray-700"> - </span>
-                    <span className="text-gray-500">Março 19, 2023</span>
+                    <span className="text-gray-500">Novembro 1, 2023</span>
                   </div>
                 </footer>
               </article>

@@ -40,16 +40,9 @@ function Tabs() {
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              A ferramenta consiste em metodologias fundamentadas
+              A FireTheBox integra metodologias consagradas do Vale do Silício, combinando inovação e experiência prática para transformar ideias em empreendimentos  de sucesso.
             </p>
-            <p
-              className="text-xl text-indico-100"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-tabs]"
-            >
-              no Vale do Silício, lar dos gigantes da tecnologia.
-            </p>
+          
           </div>
 
           {/* Section content */}
@@ -164,13 +157,11 @@ function Tabs() {
                       Fácil de iniciar, construir e aplicar.
                     </h4>
                     <p className="text-lg text-justify">
-                      A missão da FireTheBox é criar ambientes propícios para
-                      potencializar diferentes pessoas e suas carreiras através
-                      da inovação e resolução de problemas. Queremos permitir
-                      que jovens comuns com acesso internet possam aprender
-                      sobre tecnologia, inovação e empreendedorismo e possam
-                      criar produtos que tenha potencial de virar uma startup ou
-                      atender a demanda de alguma empresa do mercado..
+                    A FireTheBox tem como missão fomentar ecossistemas inovadores que capacitem indivíduos de diversas
+                     origens a impulsionar suas carreiras por meio do empreendedorismo tecnológico e da resolução criativa de problemas.
+                      Nosso objetivo é democratizar o aprendizado em tecnologia, inovação e gestão empresarial, 
+                      habilitando jovens com acesso à internet a desenvolver produtos com potencial disruptivo ou que atendam 
+                      às necessidades específicas do mercado empresarial.
                     </p>
                     <a
                       className="btn-sm bg-tangerine-100 hover:bg-tangerine-300 mt-6"
