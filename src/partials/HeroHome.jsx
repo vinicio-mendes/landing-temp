@@ -74,7 +74,7 @@ function HeroHome() {
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="btn text-white-100 bg-tangerine-100 hover:bg-tangerine-300 w-full sm:w-auto sm:ml-4"
-                  href="https://api.whatsapp.com/send?phone=5565999067582&text=Ol%C3%A1,%20desejo%20ser%20parceiro%20da%20FireTheBox!"
+                  href="https://wa.me/5565999067583?text=Ol%C3%A1+pessoal%21+Estou+interessado+em+conhecer+a+FireTheBox%21"
                 >
                   Seja nosso parceiro
                 </a>

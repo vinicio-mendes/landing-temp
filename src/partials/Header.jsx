@@ -175,7 +175,7 @@ function Header() {
               <ul className="bg-tangerine-100 px-4 py-2">
                 <li>
                   <Link
-                    to="/404"
+                    to="https://coda.io/@firethebox/firethebox"
                     className="flex text-white-100 hover:text-indico-600 py-2"
                   >
                     Ferramentas
