@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroImage from '../images/about-hero.jpg'
+import imagem1heroAbout from '../images/imagem1heroAbout.png'
 
 function HeroAbout() {
   return (
@@ -9,7 +9,7 @@ function HeroAbout() {
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover"
-          src={HeroImage}
+          src={imagem1heroAbout}
           width="1440"
           height="394"
           alt="About"

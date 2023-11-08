@@ -58,7 +58,7 @@ function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  to="/404"
+                  to="https://coda.io/@firethebox/firethebox"
                   className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Ferramentas

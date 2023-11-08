@@ -1,9 +1,9 @@
 import React from 'react'
 
-import TeamMosaic01 from '../images/team-mosaic-01.jpg'
-import TeamMosaic02 from '../images/team-mosaic-02.jpg'
-import TeamMosaic03 from '../images/team-mosaic-03.jpg'
-import TeamMosaic04 from '../images/team-mosaic-04.jpg'
+import TeamMosaic01 from '../images/Down1.png'
+import TeamMosaic02 from '../images/Down3.png'
+import TeamMosaic03 from '../images/Down2.png'
+import TeamMosaic04 from '../images/Down4.png'
 
 function TeamImages() {
   return (
@@ -11,18 +11,6 @@ function TeamImages() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <div className="relative w-full h-0 pb-3/4">
-            <figure
-              className="absolute h-auto"
-              style={{ top: '45%', width: '41.67%', maxWidth: '320px' }}
-              data-aos="fade-right"
-            >
-              <img
-                src={TeamMosaic02}
-                width="320"
-                height="240"
-                alt="Team mosaic 02"
-              />
-            </figure>
             <figure
               className="relative mx-auto h-auto"
               style={{ width: '78.13%', maxWidth: '600px' }}
@@ -34,6 +22,18 @@ function TeamImages() {
                 width="600"
                 height="338"
                 alt="Team mosaic 01"
+              />
+            </figure>
+            <figure
+              className="absolute h-auto"
+              style={{ top: '45%', width: '41.67%', maxWidth: '320px' }}
+              data-aos="fade-right"
+            >
+              <img
+                src={TeamMosaic02}
+                width="320"
+                height="240"
+                alt="Team mosaic 02"
               />
             </figure>
             <figure
