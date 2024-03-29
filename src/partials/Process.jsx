@@ -7,14 +7,15 @@ function Process() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 text-magenta-100" data-aos="fade-up">
-              Nosso combo para pontencializar sua ideia de negócio
+              Um ecossistema com diferentes objetivos e necessidades
             </h2>
             <p
               className="text-xl text-indico-100"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              A FireTheBox oferece um roteiro interativo e dinâmico que capacita empreendedores a desenvolver, validar e escalar seus projetos com confiança e eficácia.
+              Estamos aqui caso deseje capacitar pessoas, gerenciar processos de
+              inovação ou acessar jovens talentos especializados.
             </p>
           </div>
 
@@ -63,11 +64,15 @@ function Process() {
                 />
               </svg>
               <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-tangerine-100">1</span>. Metodologia
+                <span className="text-tangerine-100">1</span>. Capacitação
               </h4>
-              <p className="text-lg text-indico-100 text-center">
-                
-A FireTheBox oferece um roteiro interativo e prático para o desenvolvimento e validação eficaz de ideias empreendedoras.
+              <p className="text-lg text-indico-100 text-justify">
+                O abismo entre conhecimento acadêmico e habilidades práticas
+                demandadas pelo mercado cria uma lacuna desafiadora. Estudantes
+                e colaboradores frequentemente enfrentam a transição para o
+                ambiente de trabalho armados apenas com teoria, sem a
+                experiência prática ou o pensamento crítico necessários para
+                inovar e resolver problemas reais.
               </p>
             </div>
 
@@ -115,49 +120,20 @@ A FireTheBox oferece um roteiro interativo e prático para o desenvolvimento e v
                 </g>
               </svg>
               <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-tangerine-100">2</span>. Co-criação
+                <span className="text-tangerine-100">2</span>. Inovação
               </h4>
-              <p className="text-lg text-indico-100 text-center">
-                Construa com sua equipe em tempo real, interaja com outras
-                equipes aprenda em conjunto.
+              <p className="text-lg text-indico-100 text-justify">
+                Organizações lutam para se adaptar a um cenário em rápida
+                evolução, onde dados abundantes e ideias brutas muitas vezes não
+                são traduzidos em estratégias de inovação eficazes. Há uma
+                dificuldade em alinhar o potencial de inovação com as metas de
+                negócios concretas, resultando em projetos que não atingem sua
+                capacidade máxima ou falham em gerar impacto significativo.
               </p>
             </div>
 
             {/* 3rd item */}
             <div
-              className="relative flex flex-col items-center"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <svg
-                className="w-16 h-16 mb"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  className="fill-current text-indico-100"
-                  width="64"
-                  height="64"
-                  rx="32"
-                />
-               <path
-                className="stroke-current text-purple-100"
-                d="M6 20a1 1 0 001-1v-7a1 1 0 00-2 0v7a1 1 0 001 1zM10 10v9a1 1 0 002 0v-9a1 1 0 00-2 0zM15 13v6a1 1 0 002 0v-6a1 1 0 00-2 0zM20 9v10a1 1 0 002 0V9a1 1 0 00-2 0zM6 9a1 1 0 00.707-.293l3.586-3.586a1.025 1.025 0 011.414 0l2.172 2.172a3 3 0 004.242 0l5.586-5.586A1 1 0 0022.293.293l-5.586 5.585a1 1 0 01-1.414 0l-2.172-2.171a3 3 0 00-4.242 0L5.293 7.293A1 1 0 006 9z"
-                fill="white"
-                transform="translate(18,19)"
-                />
-
-              </svg>
-              <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-tangerine-100">3</span>. Metrificação
-              </h4>
-              <p className="text-lg text-indico-100 text-center">
-                Através de nossa metodologia de "Momentos Estratégicos", somos capazes de medir o avanço de cada equipe, fornecendo feedbacks precisos sobre seus níveis de engajamento e progresso.
-              </p>
-            </div>
-
-             {/* 4rd item */}
-             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -189,10 +165,15 @@ A FireTheBox oferece um roteiro interativo e prático para o desenvolvimento e v
                 />
               </svg>
               <h4 className="h4 text-magenta-100 mb-2">
-                <span className="text-tangerine-100">4</span>. Gamificação
+                <span className="text-tangerine-100">3</span>. Contratação
               </h4>
-              <p className="text-lg text-indico-100 text-center">
-                Por meio de um sistema gamificado que estratifica por momentos e incentiva a competição saudável, tornamos o aprendizado uma jornada divertida e descomplicada, transformando desafios complexos em experiências empolgantes e gratificantes.
+              <p className="text-lg text-indico-100 text-justify">
+                A corrida por talentos especializados e alinhados com a cultura
+                de inovação é uma barreira contínua. Empresas e eventos
+                tecnológicos, como hackathons, enfrentam desafios na atração e
+                retenção de indivíduos que não apenas possuem habilidades
+                técnicas, mas também são visionários, criativos e prontos para
+                impulsionar a próxima onda de inovação.
               </p>
             </div>
           </div>

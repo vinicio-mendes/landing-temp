@@ -10,7 +10,8 @@ function Target() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">
-             Mostramos o momento ideal para você
+              Acelere a trajetória da inovação e empreendedorismo em sua
+              organização
             </h2>
           </div>
 
@@ -42,7 +43,7 @@ function Target() {
                     data-aos="fade-left"
                     data-aos-anchor="[data-aos-id-target]"
                   >
-                    O momento para empreender é agora
+                    criamos sinergias com os seguintes perfis:
                   </div>
                   <div
                     className="mt-6"
@@ -51,12 +52,14 @@ function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-tangerine-100">.</span> Descobrir
+                      <span className="text-tangerine-100">.</span> Para
+                      Empresas
                     </h4>
                     <p className="text-lg text-indico-100 text-justify">
-                    A FireTheBox é um catalisador para aspirantes a empreendedores: uma plataforma que transforma curiosidade em capacidade empreendedora, 
-                    guiando usuários de todos os níveis de habilidade através de um percurso educativo e prático rumo à inovação e ao sucesso empresarial
-                    .
+                      Empresas buscam inovar e evoluir, e com a FireTheBox, elas
+                      encontram o suporte necessário para desenvolver novos
+                      produtos e processos, impulsionando a cultura de inovação
+                      e atraindo talentos alinhados sua missão.
                     </p>
                   </div>
                   <div
@@ -66,10 +69,14 @@ function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-tangerine-100">.</span>Validar
+                      <span className="text-tangerine-100">.</span> Para
+                      Instituições de Ensino
                     </h4>
                     <p className="text-lg text-indico-100 text-justify">
-                    Acenda a chama da inovação com a FireTheBox! Se você tem um MVP pronto para brilhar, estamos aqui para turbiná-lo. Nossa plataforma é o trampolim que você precisa para saltar das ideias para a ação, oferecendo ferramentas afiadas de análise e feedback que vão polir seu produto até ele brilhar. Com FireTheBox, eleve seu MVP do básico ao extraordinário, guiado por dados sólidos e insights do mercado. Prepare-se para conquistar o mercado com confiança e estratégia!
+                      Universidades se beneficiam de nossas ferramentas para
+                      integrar empreendedorismo e inovação ao currículo
+                      acadêmico, preparando os alunos para os desafios do
+                      mercado com uma educação prática e aplicadada.
                     </p>
                   </div>
                   <div
@@ -79,24 +86,13 @@ function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h4 className="h4 mb-2">
-                      <span className="text-tangerine-100">.</span> Escalar
+                      <span className="text-tangerine-100">.</span> Para Eventos
                     </h4>
                     <p className="text-lg text-indico-100">
-                    Escalando novas alturas? FireTheBox é o seu booster! 
-                    Quando seu MVP já provou seu valor e você está pronto para o grande salto, 
-                    nossa plataforma é a sua aliada estratégica para um crescimento explosivo. 
-                    Com análises avançadas e insights profundos, nós somos o vento sob as suas asas, 
-                    impulsionando você para uma expansão de mercado sem fronteiras.
-                     Junte-se a uma comunidade vibrante de visionários e mentores, 
-                     conecte-se com investidores e experts e use a FireTheBox para turbinar seu crescimento,
-                      afiar suas estratégias de aquisição e dominar o mercado. Navegue pelo emocionante mundo da expansão com a gente,
-                       gerenciando recursos com a maestria de um campeão. Vamos decolar!
-
-
-
-
-
-
+                      Hackathons, Ideathons e Bootcamps ganham vida com a nossa
+                      plataforma, que oferece um ambiente vibrante para ideias
+                      criativas prosperarem, conectando pensadores inovadores e
+                      fomentando uma comunidade engajada.
                     </p>
                   </div>
                 </div>

@@ -19,11 +19,10 @@ function Footer() {
                   <img height="200" width="200" src={logo} alt="logo" />
                 </Link>
               </div>
-              <div className="text-indico-100 mb-5 mt-0">
+              <div className="text-indico-100 mb-5 mt-0 text-justify">
                 Uma startup, spin-off do fundo de impacto Nguzu, que busca
-                democratizar o empreendedorismo e inovação para jovens de
-                regiões de todo Brasil, através de ambientes propícios para
-                potencializar ideias, projetos e pessoas.
+                democratizar o empreendedorismo e inovação, através de ambientes
+                propícios para potencializar ideias, projetos e pessoas.
               </div>
             </div>
 
@@ -114,7 +113,7 @@ function Footer() {
             <ul className="flex mb-3 md:order-1 md:ml-3 md:mb-0">
               <li>
                 <Link
-                  to="https://www.linkedin.com/pulse/nguzu-project-como-criamos-e-concretizamos-tiago-cardoso/?originalSubdomain=pt"
+                  to="https://www.linkedin.com/pulse/nguzu-territ%C3%B3rios-organiza%C3%A7%C3%B5es-e-pessoas-tiago-cardoso-jqzoe/?utm_source=share&utm_medium=member_ios&utm_campaign=share_via"
                   target="_blank"
                   className="flex justify-center items-center rounded-full transition duration-150 ease-in-out"
                   aria-label="Nguzu"
@@ -122,8 +121,8 @@ function Footer() {
                   <img
                     className="fill-current transition duration-150 ease-in-out"
                     src={NGUZU}
-                    width="108"
-                    height="34"
+                    width="100"
+                    height="100"
                   />
                 </Link>
               </li>

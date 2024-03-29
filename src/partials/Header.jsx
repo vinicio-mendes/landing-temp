@@ -61,7 +61,7 @@ function Header() {
                   to="https://coda.io/@firethebox/firethebox"
                   className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Ferramentas
+                  Soluções
                 </Link>
               </li>
               <li>
@@ -73,16 +73,18 @@ function Header() {
                 </Link>
               </li>
               <li>
+                {/** 
                 <Link
                   to="/404"
                   className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Blog
                 </Link>
+              */}
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="/404"
                   className="text-tangerine-100 hover:text-tangerine-300 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Sobre
@@ -121,19 +123,19 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                {/* <Link
+                <Link
                   to="/404"
                   className="font-medium text-indico-100 hover:text-indico-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Iniciar sessão
-                </Link> */}
+                </Link>
               </li>
               <li>
                 <Link
                   to="https://tally.so/r/nr54GR"
                   className="btn-sm text-white-100 bg-indico-100 hover:bg-indico-600 ml-3"
                 >
-                  Queime a caixa
+                  Cadastra-se
                 </Link>
               </li>
             </ul>
@@ -186,7 +188,7 @@ function Header() {
                     to="/404"
                     className="flex text-white-100 hover:text-indico-600 py-2"
                   >
-                    Preço
+                    Planos
                   </Link>
                 </li>
                 <li>

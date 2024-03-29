@@ -49,18 +49,19 @@ function HeroHome() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-4xl mx-auto text-center pb-12 md:pb-12">
             <h1 className="h1 mb-4 text-magenta-100" data-aos="fade-up">
-            Acenda sua ideia com a FireTheBox.
+              A plataforma para resolver desafios de capacitação, inovação e
+              contratação.
             </h1>
             <p
               className="text-xl text-magenta-100 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-             A FireTheBox é uma plataforma inovadora que potencializa a criatividade e a colaboração,
-              transformando o conhecimento teórico em projetos práticos de impacto, 
-              com ferramentas que facilitam a gestão e a avaliação do aprendizado
+              A FireTheBox é uma edtech que oferece tecnologia e serviços para o
+              desenho e gerenciamento de jornadas de empreendedorismo, inovação
+              aberta, hackathons e outros.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -68,7 +69,7 @@ function HeroHome() {
                   className="btn text-white-100 bg-indico-100 hover:bg-indico-300 w-full mb-4 sm:w-auto sm:mb-0"
                   href="https://tally.so/r/nr54GR"
                 >
-                  Comece agora
+                  Conheça a Plataforma
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
@@ -76,7 +77,7 @@ function HeroHome() {
                   className="btn text-white-100 bg-tangerine-100 hover:bg-tangerine-300 w-full sm:w-auto sm:ml-4"
                   href="https://wa.me/5565999067583?text=Ol%C3%A1+pessoal%21+Estou+interessado+em+conhecer+a+FireTheBox%21"
                 >
-                  Seja nosso parceiro
+                  Agendar Conversa
                 </a>
               </div>
             </div>

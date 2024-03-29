@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import NewsImage01 from '../images/news-01.jpg'
-import NewsImage02 from '../images/news-02.jpg'
-import NewsImage03 from '../images/news-03.jpg'
-import carlosteam from '../images/carlosteam.png'
+import Imagemoquefazemos from '../images/Imagemoquefazemos.png'
+import Imagemoquepodemos from '../images/imagemoquepodemos.png'
+import ImagemSobreNos from '../images/imagemsobrenos.png'
 
 function News() {
   return (
@@ -14,7 +13,7 @@ function News() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 text-magenta-100" data-aos="fade-up">
-            Adquira novos conhecimentos e aprenda com as mentes mais brilhantes do mundo das startups.
+              Conheça um pouco mais sobre a FireTheBox nas mídias
             </h2>
           </div>
 
@@ -26,18 +25,19 @@ function News() {
                 <header>
                   <Link
                     className="block mb-6"
-                    to="https://www.notion.so/firethebox/Empreendedorismo-Jovem-no-Brasil-d13ae96ca8744d609b95c95ddeb4169f?pvs=4"
+                    to="https://www.instagram.com/p/C48Po9VOVOA/?img_index=1"
                   >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={NewsImage01}
+                        src={ImagemSobreNos}
                         width="352"
                         height="198"
                         alt="News 01"
                       />
                     </figure>
                   </Link>
+                  {/*
                   <div className="mb-3">
                     <ul className="flex flex-wrap text-xs font-medium -m-1">
                       <li className="m-1">
@@ -58,24 +58,23 @@ function News() {
                       </li>
                     </ul>
                   </div>
+                   */}
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
-                      to="https://firethebox.notion.site/Empreendedorismo-No-Brasil-dd6d982a50fa4ed9b91618039c150ebc?pvs=4"
+                      to="https://www.instagram.com/p/C48Po9VOVOA/?img_index=1"
                       target="_blank"
                     >
-                      Empreendedorismo Jovem no Brasil.
+                      Entenda um pouco mais sobre nossa missão e visão
                     </Link>
                   </h3>
                 </header>
                 <p className="text-lg text-indico-100 grow text-justify">
-                  Empreender no Brasil sempre foi e será um verdadeiro duelo de
-                  gigantes, de um lado jovens com mentes brilhantes presos em
-                  ecossistemas nocivos e destruidores de inovação, do outro
-                  jovens com sede por transformar a vida daqueles que estão ao
-                  seu redor com soluções que moldaram o presente e aproximaram
-                  um futuro melhor.
+                  Buscamos democratizar o acesso ao empreendedorismo e à
+                  inovação para os jovens do Brasil, conectando a Geração Z a um
+                  ecossistema de oportunidades. Entenda mais.
                 </p>
+                {/*
                 <footer className="flex items-center mt-4">
                   <a href="#0">
                     <img
@@ -97,6 +96,7 @@ function News() {
                     <span className="text-gray-500">Novembro 1, 2023</span>
                   </div>
                 </footer>
+                 */}
               </article>
 
               {/* 2nd article */}
@@ -108,18 +108,19 @@ function News() {
                 <header>
                   <Link
                     className="block mb-6"
-                    to="https://www.notion.so/firethebox/Empreendedorismo-no-Metaverso-db198bcaa4d342308a1ecf9c58c5145e?pvs=4"
+                    to="https://www.instagram.com/p/C5Ems4pOJUF/?img_index=1"
                   >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={NewsImage02}
+                        src={Imagemoquefazemos}
                         width="352"
                         height="198"
                         alt="News 02"
                       />
                     </figure>
                   </Link>
+                  {/*
                   <div className="mb-3">
                     <ul className="flex flex-wrap text-xs font-medium -m-1">
                       <li className="m-1">
@@ -140,24 +141,23 @@ function News() {
                       </li>
                     </ul>
                   </div>
+                  */}
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
-                      to="https://firethebox.notion.site/Empreendedorismo-no-Metaverso-d40617b61f9343a5936288375b17aab0?pvs=4"
+                      to="https://www.instagram.com/p/C5Ems4pOJUF/?img_index=1"
                       target="_blank"
                     >
-                      Empreendedorismo no Metaverso.
+                      Entenda aqui o um pouco mais das nossas soluções
                     </Link>
                   </h3>
                 </header>
                 <p className="text-lg text-indico-100 grow text-justify">
-                  Seja no mundo real ou em órbitas virtuais, empreender sempre
-                  trará novos desafios a desafiantes que sabem se adaptar a
-                  qualquer ambiente, o metaverso vem sendo palco para grandes
-                  percursores de inovação ditarem tendências de mercado que a
-                  pouco não passavam de sonhos distantes, porém que hoje batem a
-                  sua porta e lhe entregam soluções para seu dia a dia..
+                  Na FireTheBox, desbloqueamos o potencial empreendedor da sua
+                  organização com soluções educacionais personalizadas, gestão
+                  de desafios e suporte de IA. Entenda mais.
                 </p>
+                {/*
                 <footer className="flex items-center mt-4">
                   <a href="#0">
                     <img
@@ -179,6 +179,7 @@ function News() {
                     <span className="text-gray-500">Novembro 1, 2023</span>
                   </div>
                 </footer>
+                 */}
               </article>
 
               {/* 3rd article */}
@@ -190,18 +191,19 @@ function News() {
                 <header>
                   <Link
                     className="block mb-6"
-                    to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-30e560a9ce6b41f9827bdfc9086efe97?pvs=4"
+                    to="https://www.instagram.com/p/C5BgP_FuT7B/?img_index=1"
                   >
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
                       <img
                         className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                        src={NewsImage03}
+                        src={Imagemoquepodemos}
                         width="352"
                         height="198"
                         alt="News 03"
                       />
                     </figure>
                   </Link>
+                  {/*
                   <div className="mb-3">
                     <ul className="flex flex-wrap text-xs font-medium -m-1">
                       <li className="m-1">
@@ -222,24 +224,24 @@ function News() {
                       </li>
                     </ul>
                   </div>
+                */}
                   <h3 className="h4 mb-2">
                     <Link
                       className="text-magenta-100 hover:text-magenta-300 transition duration-150 ease-in-out"
-                      to="https://firethebox.notion.site/Empreendedorismo-com-Chat-GPT-30e560a9ce6b41f9827bdfc9086efe97?pvs=4"
+                      to="https://www.instagram.com/p/C5BgP_FuT7B/?img_index=1"
                       target="_blank"
                     >
-                      Empreendedorismo com Chat-GPT.
+                      Entenda mais como criamos sinergias
                     </Link>
                   </h3>
                 </header>
                 <p className="text-lg text-indico-100 grow text-justify">
-                  Você empreendedor não pode ignorar a revolução que o seu mais
-                  novo amigo vem trazendo ao mercado, afinal de contas o
-                  Chat-GPT veio para ficar e já está mudando o ecossistema
-                  empreendedor no Brasil e no mundo, tendo em vista que fazer a
-                  pergunta certa pode lhe trazer grandes vantagens frente ao seu
-                  concorrente que sem dúvidas está fazendo a mesma coisa.
+                  Na FireTheBox, transformamos o futuro da inovação e do
+                  empreendedorismo, criando pontes entre empresas,
+                  universidades, eventos de inovação, centros tecnológicos e
+                  ligas de empreendedorismo. Entenda mais.
                 </p>
+                {/*
                 <footer className="flex items-center mt-4">
                   <a href="#0">
                     <img
@@ -261,6 +263,7 @@ function News() {
                     <span className="text-gray-500">Novembro 1, 2023</span>
                   </div>
                 </footer>
+               */}
               </article>
             </div>
           </div>
